@@ -6,6 +6,26 @@
 }
 
 /* Nav section */
+.header-section {
+  margin: 15px 10px;
+  text-align: right;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+a:active {
+  text-decoration: none;
+}
 /* End of Nav section */
 
 /* Header section */
