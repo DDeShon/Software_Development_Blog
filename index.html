@@ -4,23 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/Styles/style.css" />
     <script src="/Scripts/blogApp.js"></script>
     <title>Software Development Blog</title>
   </head>
   <body>
-    <section class="header-section" id="header-section">
+    <section class="nav-section" id="nav-section">
       <nav class="nav-bar" id="nav-bar">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Account</a>
-        <button class="nav-button" id="nav-button">Sign in</button>
-        <button class="nav-button" id="nav-button">Create Account</button>
+        <button class="nav-button" id="nav-sign_in">Sign in</button>
+        <button class="nav-button" id="nav-create">Create Account</button>
       </nav>
     </section>
-    <section class="main-section" id="main-section">
-      <div></div>
+    <section class="header-section" id="header-section">
+      <h1>Software Development Blog</h1>
     </section>
-    <section class="footer-section" id="footer-section"></section>
+    <section class="main-section" id="main-section">
+      <div class="row" id="row">
+        <div class="left-column" id="left-column">
+          <div class="card" id="card">
+            <h2>Title Heading</h2>
+            <h5>Title description and date</h5>
+            <p>Sample text from post</p>
+          </div>
+          <div class="card" id="card">
+            <h2>Title Heading</h2>
+            <h5>Title description and date</h5>
+            <p>Sample text from post</p>
+          </div>
+          <div class="card" id="card">
+            <h2>Title Heading</h2>
+            <h5>Title description and date</h5>
+            <p>Sample text from post</p>
+          </div>
+        </div>
+        <div class="right-column" id="right-column">
+          <div class="card" id="card">
+            <h2>About Me</h2>
+            <p>Text about me</p>
+          </div>
+          <div class="card" id="card">
+            <h3>Popular Post</h3>
+            <div class="thumbnail" id="thumbnail">Image</div>
+            <br />
+            <div class="thumbnail" id="thumbnail">Image</div>
+            <br />
+            <div class="thumbnail" id="thumbnail">Image</div>
+          </div>
+          <div class="card" id="card">
+            <h3>Follow Me</h3>
+            <div class="social-network" id="social-network">LinkedIn</div>
+            <div class="social-network" id="social-network">Github</div>
+            <div class="social-network" id="social-network">Twitter</div>
+            <div class="social-network" id="social-network">Instagram</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section" id="footer-section">
+      <div class="footer" id="footer">
+        <h3>Footer content</h3>
+      </div>
+    </section>
   </body>
 </html>
