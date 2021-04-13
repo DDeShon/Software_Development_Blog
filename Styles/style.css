@@ -5,13 +5,28 @@
   font-size: 16px;
 }
 
+body {
+  background-color: #3c238ed7;
+}
+
 /* Nav section */
 .header-section {
-  margin: 15px 10px;
+  padding: 15px 10px;
   text-align: right;
+  text-transform: uppercase;
+  background-color: #dcddd5;
 }
+
+.nav-button {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #3c238ed7;
+  color: #dcddd5;
+}
+
 a:link {
   text-decoration: none;
+  padding: 0 10px;
 }
 
 a:visited {
@@ -26,6 +41,7 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
 /* End of Nav section */
 
 /* Header section */
