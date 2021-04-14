@@ -1,4 +1,6 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,6 +8,7 @@
 }
 
 body {
+  display: block;
   background-color: #3c238ed7;
 }
 
@@ -23,10 +26,6 @@ body {
   background-color: green;
   color: #dcddd5;
   cursor: pointer;
-}
-
-#nav-sign_in {
-  visibility: hidden;
 }
 
 a:link {
@@ -105,6 +104,30 @@ a:active {
   margin-top: 20px;
 }
 /* End of Footer section */
+
+/* Sign In Page */
+.sign-in {
+  text-align: center;
+}
+
+.form-container {
+  display: inline-block;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.form-field label {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: rgb(253, 241, 169);
+}
+/* End of Sign In Page */
 
 @media screen and (max-width: 800px) {
   .left-column,
